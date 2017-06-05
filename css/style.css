@@ -1,0 +1,48 @@
+button {
+    line-height: 1.5;
+    border: 0;
+    background: #333;
+    opacity: 0.95;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    transition: all 0.33s;
+}
+button:hover {
+    background: #2c2c2c;
+    opacity: 1;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+body {
+    line-height: 1.5;
+    transition: 0.25s;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.text-small {
+    font-size: 20px;
+}
+.text-large {
+    font-size: 48px;
+}
+.text-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.text-center {
+    text-align: center;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
